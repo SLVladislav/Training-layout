@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+}
+
+.nav-about {
+  padding-top: 40px;
+}
+
+.section-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  text-align: center;
+  background-image: url(../../../images/hero_desk_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 280px 171px 530px 171px;
+}/*# sourceMappingURL=main.css.map */

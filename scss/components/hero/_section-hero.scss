@@ -1,0 +1,21 @@
+.section-hero {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+    width: 100%;
+    text-align: center;
+    background-image:  url(../../../images/hero_desk_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 280px 171px 530px 171px;
+    
+    
+}
+
+// .section-hero-container{
+//   width: 1440px;
+//   height: 1024px;
+// }
