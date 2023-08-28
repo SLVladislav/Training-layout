@@ -1,0 +1,57 @@
+.section-tour-title{
+    color: #1B1D1B;
+    text-align: center;
+    font-size: 68px;
+    font-weight: 400;
+    margin-bottom: 60px;
+
+}
+
+.section-tour-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;   
+}
+
+.section-tour-list{
+    background: #F7FBFB;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-tour-about{
+    color:  #1B1D1B;   
+    font-size: 28px;    
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.section-tour-from{
+    color:  #202321;    
+    font-size: 24px;   
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.section-tour-thumb{
+    padding: 48px 20px;
+}
+.btn-tour{
+    display: flex;
+    width: 337px;
+    height: 69px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5B86A1;
+    border: none;
+    cursor: pointer;
+
+    color:  #F7FBFB;
+    font-size: 24px;
+    font-weight: 500;
+
+}

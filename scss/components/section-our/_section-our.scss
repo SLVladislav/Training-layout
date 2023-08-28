@@ -1,0 +1,64 @@
+.section-advantatget{
+     position: relative;
+     
+}
+.section-our{
+  
+    color: #1B1D1B;
+    text-align: center;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 60px;
+    
+}
+
+.section-our-img{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+.our-img-wrap{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-our-list-wrap{
+    position: absolute;
+    top: 231px;
+    left: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    // z-index: 2;
+    
+
+}
+.section-our-list{
+    width: 630px;
+    height: 64px;
+    background: #5B86A1;
+    color:  #F7FBFB;
+    // color: #1B1D1B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;    
+    gap: 10px;    
+    
+}
+.section-div{
+    display: flex;
+    align-items: center;
+    margin-left: 126px;
+}
+

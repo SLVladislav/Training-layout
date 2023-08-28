@@ -1,0 +1,77 @@
+.section-reviews{
+    color: #1B1D1B;
+    text-align: center;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 70px;
+    padding-top: 80px;
+}
+
+.section-reviews-wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;   
+ 
+}
+
+.section-reviews-list{
+    background: #F7FBFB;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.img-hero-rewiew{
+    position: absolute;
+    top: 14%;
+    left: 17%;
+    width: 125px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.img-rewiew{    
+    // width: 377px;
+    // height: 144px;
+    
+}
+.img-hero-rewiew-2{    
+    position: absolute;
+    top: 14%;
+    left: 45%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 125px;
+}
+
+.img-hero-rewiew-3{
+    width: 125px;
+     position: absolute;
+    top: 14%;
+    left: 73%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.section-reviews-thumb{
+    padding:  83px 28px;
+}
+.section-reviews-hero{
+    color: #5B86A1;
+    text-align: center;    
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section-review-title{
+    
+    color:  #202321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 321px;
+}

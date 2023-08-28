@@ -1,6 +1,6 @@
 
 .section-hero-container{
-    position: absolute;
+    position: relative;
     top: 0; 
     left: 0; 
     z-index: -1;
@@ -10,14 +10,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 
     padding: 280px 170px;
-
 }
 .hero-city{
-    // width: 1170px;
-
-    // margin: 0 auto;    
     color:  #F7FBFB;
     font-size: 88px;
     font-style: normal;
@@ -27,6 +24,7 @@
     margin-bottom: 40px;
 
 }
+
 .hero-title{
     width: 675px;
     margin: 0 auto;
@@ -51,11 +49,25 @@
     margin: 0 auto;
     background: #5B86A1;
 
-    color: var(--light, #F7FBFB);
+    color:  #F7FBFB;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     border: transparent;
+    cursor: pointer;
+    
+}
+
+.hero-wrap{
+    display: flex;
+    justify-content: center;
+       
+}
+
+.hero-social{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     cursor: pointer;
 }
