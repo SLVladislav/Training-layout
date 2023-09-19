@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour in Ukraine</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css//main.min.css">  
+
 </head>
 <body>
     <header class="header">
@@ -194,8 +194,63 @@
             </ul>
         </div>
     </section-reviews>
+    <section-gallery>
+        <!-- Slider main container -->
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="./images/Photo gallery-1.jpg" alt="">
+                    <img src="./images/Photo gallery-2.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Photo gallery-3.jpg" alt="">
+                    <img src="./images/Photo gallery-4.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/Photo gallery-5.jpg" alt="">
+                    <img src="./images/Photo gallery-6.jpg" alt="">
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+        </div>
+      </section-gallery>
+      <section-questions class="section-question">
+        <img src="./images/image_3_desk.jpg" alt="logo">
+        <div class="section-qestions-box">
+            <h3 class="section-question-h3">Do you have any questions?</h3>
+            <p class="section-question-title">You can leave your questions here and our manager will call you back within 10 minutes</p>
+           <form action="">
+            <label for="">
+                <input type="name" name="name" id="name" placeholder="Your name*">
+            </label>
+            <label for="">
+                <input type="tel" name="phone" id="phone" placeholder="Phone number*">
+            </label>
+            <label for="">
+                <input type="text" name="text" id="text" placeholder="What would you like to know?">
+            </label>
+            <button type="button">CALL ME</button>
+           </form>
+            
+        </div>
+      </section-questions>
     </div> 
     </main>
    </main> 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./swiper.js" type="module"></script>
 </body>
+
 </html>

@@ -1,0 +1,13 @@
+
+.swiper{
+    width: 575px;
+    height: 445px; 
+}
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.swiper-slide img{
+//    max-width: 100%;
+}
